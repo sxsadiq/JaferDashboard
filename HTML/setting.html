@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="preconnect" href="../https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <div class="side-bar">
+        <h1>Jafer</h1>
+        <ul>
+          <li>
+            <a href="../dashboard.html"
+              ><i class="fa-regular fa-chart-bar fa-fw"></i> Dashboard</a
+            >
+          </li>
+          <li>
+            <a href="setting.html" class="active"
+              ><i class="fa-solid fa-gear"></i> Setting</a
+            >
+          </li>
+          <li>
+            <a href="profile.html"
+              ><i class="fa-regular fa-user fa-fw"></i> Profile</a
+            >
+          </li>
+          <li>
+            <a href="projects.html"
+              ><i class="fa-solid fa-diagram-project"></i>projects</a
+            >
+          </li>
+          <li>
+            <a href="courses.html"
+              ><i class="fa-solid fa-graduation-cap"></i>courses</a
+            >
+          </li>
+          <li>
+            <a href="friends.html"
+              ><i class="fa-regular fa-circle-user fa-fw"></i>Friends</a
+            >
+          </li>
+          <li>
+            <a href="files.html"
+              ><i class="fa-regular fa-file fa-fw"></i>files</a
+            >
+          </li>
+          <li>
+            <a href="plans.html"
+              ><i class="fa-regular fa-credit-card fa-fw"></i>Plans</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="side-content">
+        <div class="head">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" name="" id="" placeholder="Type A keyWord" />
+          </div>
+          <div class="head-right">
+            <i class="fa-regular fa-bell"></i>
+            <img src="../images/avatar.png" alt="" />
+          </div>
+        </div>
+        <div class="landing">
+          <h1>settings</h1>
+          <div class="boxes settings">
+            <div class="box">
+              <div class="head">
+                <h3>Site Control</h3>
+                <span>Control The Website If there is Maintence</span>
+              </div>
+              <div class="control">
+                <div class="info">
+                  <span>Website Control</span>
+                  <span>open / close website and type the reasone</span>
+                </div>
+                <div class="check-box"></div>
+              </div>
+              <textarea
+                name=""
+                placeholder="close message content"
+                id=""
+              ></textarea>
+            </div>
+            <div class="box">
+              <div class="head">
+                <h3>General Info</h3>
+                <span>General Information About Your Acount</span>
+              </div>
+              <form action="" class="Draft">
+                <label for="">First Name</label>
+                <input type="text" placeholder="First Name" />
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Last Name" />
+                <label for="">Email</label>
+                <div class="email">
+                  <input type="email" placeholder="o@nn.sa" disabled />
+                  <a href="" class="change">Change</a>
+                </div>
+              </form>
+            </div>
+            <div class="box">
+              <div class="head">
+                <h3>Security Info</h3>
+                <span>Security Information About Your Account</span>
+              </div>
+              <div class="Info">
+                <div class="info">
+                  <span>Passowrd</span>
+                  <span>Last Change On 22/5/2003</span>
+                </div>
+                <button class="change">Change</button>
+              </div>
+              <div class="Info">
+                <div class="info">
+                  <span>Tow-Factor Authentication</span>
+                  <span>Enable/Disable The Feature</span>
+                </div>
+                <div class="check-box"></div>
+              </div>
+              <div class="Info">
+                <div class="info">
+                  <span>Devices</span>
+                  <span>Check Login Devices List</span>
+                </div>
+                <button class="devices">Devices</button>
+              </div>
+            </div>
+            <div class="box">
+              <div class="head">
+                <h3>Social Info</h3>
+                <span>Social Media Informations</span>
+              </div>
+              <div class="twi social-info">
+                <i class="fa-brands fa-twitter"></i>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Twitter Username"
+                />
+              </div>
+              <div class="face social-info">
+                <i class="fa-brands fa-facebook"></i>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Facebook Username"
+                />
+              </div>
+              <div class="link social-info">
+                <i class="fa-brands fa-linkedin"></i>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Linkedin Username"
+                />
+              </div>
+              <div class="you social-info">
+                <i class="fa-brands fa-youtube"></i>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Youtube Username"
+                />
+              </div>
+            </div>
+            <div class="box show-hide">
+              <div class="head">
+                <h3>Widgets Control</h3>
+                <span>Show/Hide Widgets</span>
+              </div>
+              <form action="">
+                <label for="">Quick Draft</label>
+                <label for="">Yearly Target</label>
+                <label for="">Tickets Statistick</label>
+                <label for="">Latest News</label>
+                <label for="">Latest Tasks</label>
+                <label for="">Top Search Item</label>
+              </form>
+            </div>
+            <div class="box">
+              <div class="head">
+                <h3>Backup Manager</h3>
+                <span>Control Backup Time And Locaion</span>
+              </div>
+              <div class="daily backup">Daily</div>
+              <div class="weekly backup">Weekly</div>
+              <div class="monthly backup">Monthly</div>
+              <div class="backup-bottom">
+                <div class="back-box">
+                  <i class="fa-solid fa-server d-block mb-10"></i>
+                  <p>Megaman</p>
+                </div>
+                <div class="back-box">
+                  <i class="fa-solid fa-server d-block mb-10"></i>
+                  <p>Zero</p>
+                </div>
+                <div class="back-box">
+                  <i class="fa-solid fa-server d-block mb-10"></i>
+                  <p>Sigma</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../main.js"></script>
+  </body>
+</html>
