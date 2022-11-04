@@ -1812,6 +1812,11 @@ ul.skills li {
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
 }
+@media (max-width:600px){
+  .plans {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
 .plans .plan {
   background-color: var(--background-c);
   padding: 20px;
